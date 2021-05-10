@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sicurezza</title>
+    <link rel="stylesheet" href="stile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <h1>La sicurezza Digitale</h1>
+            </div>
+            <div class="col">
+                <div class="card card1">
+                    <h4>I virus</h4>
+                    <p>descrizione</p>
+                </div>
+                <div class="card card2">
+                    <h4>Attacchi Hacher</h4>
+                    <p>descrizione</p>
+                </div>
+                <div class="card card3">
+                    <h4>Furto di Indentità</h4>
+                    <p>descrizione</p>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+
+    <div class="crediti">
+        <h3>crediti</h3>
+        <ul>
+
+        </ul>
+        <h4>Divisione dei lavori</h4>
+        <br>
+        <ul>
+            <li>Spanpinato;attacchi hacker</li>
+            <li>Toscano;i virus</li>
+            <li>Saia;furto di identità</li>
+            <li>Corallo;sito</li>
+        </ul>
+
+    </div>
+
+
+
+</body>
+
+</html>

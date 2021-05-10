@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Sicurezza Digitale</title>
+    <link rel="stylesheet" href="stile.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=styles">
+    <link rel="icon" href="logo.jpg" type="image/png" />
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>La sicurezza Digitale</h1>
+            </div>
+            <div class="col">
+                <div class="card card1">
+                    <a href="http://127.0.0.1:5500/index3.html">
+                        <h4>Virus</h4>
+                    </a>
+                </div>
+
+                <div class="card card2">
+                    <a href="http://127.0.0.1:5500/index4.html">
+                        <h4>Attacchi Hacker</h4>
+                    </a>
+
+                </div>
+
+                <div class="card card3">
+                    <a href="http://127.0.0.1:5500/index5.html">
+                        <h4>Furto di Indentità</h4>
+                    </a>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    <hr>
+
+    <div class="crediti">
+        <br>
+        <h2>Divisione dei lavori</h2>
+        <br>
+        <div id="testimo" class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i><img src="utente.png"></i>
+                        <h3>Spanpinato Gianluca</h3>
+                        <br>
+                        <a href="http://127.0.0.1:5500/index3.html">
+                            <p>"Attacchi hacker"</p>
+                        </a>
+
+
+                    </div>
+                    <div class="col-3">
+                        <i><img src="utente.png"></i>
+                        <h3>Toscano Salvatore</h3>
+                        <br>
+                        <a href="http://127.0.0.1:5500/index4.html">
+                            <p>"Virus"</p>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <i><img src="utente.png"></i>
+                        <h3>Saia Lorenzo</h3>
+                        <br>
+                        <a href="http://127.0.0.1:5500/index5.html">
+                            <p>"Furto d'identità"</p>
+                        </a>
+
+                    </div>
+                    <div class="col-3">
+                        <i><img src="io.jpg"></i>
+                        <h3>Corallo Damiano</h3>
+                        <br>
+                        <p>"Sito Web"</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(65, 77, 243, 0.26), rgba(11, 19, 71, 0.445)), url(sfondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 70px;
+    margin: 15px;
+    text-shadow: 2px 2px 5px rgb(44, 8, 250);
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.7s;
+}
+
+.card1 {
+    background-image: url(attacchi.jpg);
+}
+
+.card2 {
+    background-image: url(foto1.jpg);
+}
+
+.card3 {
+    background-image: url(foto3.jpg);
+}
+
+.card:hover {
+    transform: translateY(-15px);
+}
+
+h4 {
+    color: rgb(43, 241, 241);
+    text-shadow: 0 0 8px #999;
+}
+
+h4:hover {
+    color: rgb(35, 35, 141);
+}
+
+.card i {
+    color: rgb(11, 14, 11);
+    text-shadow: 0 0 15px rgb(37, 51, 43);
+    font-size: 15px;
+}
+
+.crediti {
+    background-color: rgb(59, 55, 55);
+    text-align: left;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    color: blanchedalmond;
+}
+
+h4 {
+    color: white;
+    text-align: left;
+    font-size: 25px;
+}
+
+ul {
+    color: blanchedalmond;
+    text-align: center;
+}
+
+p {
+    color: rgb(193, 193, 230);
+    font-size: 17px;
+}
+
+p:hover {
+    color: rgb(14, 14, 73);
+}
+
+.testimonial {
+    padding-left: 30px;
+}
+
+.testimonial .col-3 {
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 0 20px 0px rgba(219, 196, 196, 0.788);
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin: 50px;
+    background-color: rgb(105, 84, 84);
+}
+
+.testimonial .col-3 img {
+    width: 70px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.testimonial .col-3:hover {
+    transform: translateY(-10px);
+}
+
+.col-3 h2 {
+    font-size: 12px;
+    margin: 20px 0;
+    color: blue;
+}
+
+.testimonial .col-3 h3 {
+    font-weight: 650;
+    color: rgb(218, 238, 223);
+    font-size: 19px;
+}
+
+h2 {
+    text-align: center;
+    color: cornsilk;
+}
